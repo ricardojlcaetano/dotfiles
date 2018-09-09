@@ -236,7 +236,7 @@
     # Redisplay last message(s).
     # On the US keyboard layout "grave" is normally above TAB and left
     # of "1". Make sure this key actually exists on your keyboard layout,
-    # e.g. check output of 'xmodmap -pke'
+    # e.g. CHECK OUTPUT OF 'XMODMAP -PKE'
     history = ctrl+grave
 
     # Context menu.
@@ -264,7 +264,7 @@
     background = "#900000"
     foreground = "#ffffff"
     frame_color = "#ff0000"
-    timeout = 0
+    timeout = 20
     # Icon for notifications with critical urgency, uncomment to enable
     #icon = /path/to/icon
 
