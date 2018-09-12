@@ -205,7 +205,7 @@ bindsym $mod+shift+p exec poweroff
 bindsym $mod+shift+v exec pavucontrol
 
 # Wallpaper
-exec_always feh --bg-fill /home/rjlc/Pictures/Wallpapers/firewatchpurple.jpg
+exec_always feh --bg-fill ~/.config/wall.png 
 
 # Monitor Settings
 exec_always xrandr --output DVI-D-0 --off --output HDMI-0 --primary --mode 1920x1080 --pos 1680x0 --rotate normal --output DVI-I-1 --off --output DVI-I-0 --mode 1680x1050 --pos 0x0 --rotate normal --output DP-1 --off --output DP-0 --off
