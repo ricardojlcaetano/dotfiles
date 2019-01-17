@@ -6,7 +6,7 @@
 * {
     background-color:      #27314C;
     border-color:          White;
-    text-color:           #5DADE2;
+    text-color:           #5dade2;
     font:            "xos4 Terminus Regular 9";
 }
 
@@ -38,5 +38,5 @@
     padding: 1px 5px;
 }
 #element selected {
-    background-color: #3A59AB;
+    background-color: #576ee3;
 }

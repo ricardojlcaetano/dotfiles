@@ -205,6 +205,9 @@ bindsym $mod+shift+p exec poweroff
 # Volume Control
 bindsym $mod+shift+v exec pavucontrol
 
+# GPU Temp Script
+bindsym $mod+shift+y exec $HOME/scripts/gputemp.sh 
+
 # Wallpaper
 exec_always feh --bg-fill ~/.config/wall.png 
 
