@@ -218,8 +218,8 @@ exec_always xrandr --output DVI-D-0 --off --output HDMI-0 --primary --mode 1920x
 # i3 Gaps
 
 for_window [class="^.*"] border pixel 2
-#gaps inner 10 
-#gaps outer 5
+gaps inner 10 
+gaps outer 5
 
 bindsym $mod+g gaps inner all set 0; gaps outer all set 0
 bindsym $mod+shift+g gaps inner all set 10; gaps outer all set 5 
