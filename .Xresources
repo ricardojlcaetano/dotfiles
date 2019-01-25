@@ -46,7 +46,8 @@ URxvt.internalBorder:    3
 URxvt*letterSpace:       0
 URxvt.scrollBar:         false
 URxvt.cursorColor:       white
-
+urxvt*transparent: true
+urxvt*shading: 45
 !-------------
 
 
