@@ -205,6 +205,9 @@ bindsym $mod+shift+p exec poweroff
 # Volume Control
 bindsym $mod+shift+v exec pavucontrol
 
+#Microphone Toggle Mute
+bindsym $mod+shift+m exec $HOME/scripts/muteToggle.sh
+
 # GPU Temp Script
 bindsym $mod+shift+y exec $HOME/scripts/gputemp.sh 
 
