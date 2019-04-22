@@ -227,5 +227,10 @@ gaps outer 5
 bindsym $mod+g gaps inner all set 0; gaps outer all set 0
 bindsym $mod+shift+g gaps inner all set 10; gaps outer all set 5 
 
+# Screenshots
+
+bindsym $mod+shift+s exec gnome-screenshot -i
+
+
 # Swap CapsLock to Escape
 exec_always setxkbmap -option caps:swapescape
